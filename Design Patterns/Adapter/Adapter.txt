@@ -1,0 +1,3 @@
+Adapter é muito utilizado para compatibilizar sistemas.
+Ele recebe solicitações do cliente e converte de uma maneira que o fornecedor entenda.
+Existe o caso onde é preciso adaptar mais de uma classe, ai entao entra o padrao Facade
