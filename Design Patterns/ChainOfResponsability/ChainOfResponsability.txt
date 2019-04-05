@@ -1,0 +1,1 @@
+A cadeia de responsabilidade é usada quando um request do cliente é passado para uma cadeia de objetos que ira processálos uma a um. Assim o prórpio objeto decide se há necessidade de passálo ao próximo ou não.
