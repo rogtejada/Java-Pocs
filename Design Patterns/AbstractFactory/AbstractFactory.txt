@@ -1,0 +1,19 @@
+Abtract Factory
+
+Define uma interface para criar familias de objetos sem especificar suas classes concretas.
+
+Fabrica Abstrata:
+Declara métodos, de criação de objetos do tipo Produto Abtrato, a serem implementados por uma FABRICA CONCRETA, que estende ou implementa uma Fabrica Abstrata.
+
+Fabricas Concretas:
+Estende ou implementa uma Fabrica Abstrata. Pode-se definir várias classes desse tipo mas deve-se implementar todos os métodos da fabrica abstrata criando um objeto Produto Concreto porém retornando como PRODUTO ABSTRATO.
+
+Produto Abtrato:
+Declara os métodos que serão implementados por um Produto Concreto.
+
+Produtos Concretos:
+Estende ou implementa um Produto Abstrato. São implementados os métodos do Produto Abstrato.
+Quantidade de produtos diretamente ligada a quantidade de fabricas concretas.
+
+Consumidor
+Não sabe qual produto concreto está sendo criado, mas sabe os métodos do produto que ele pode utilizar.
