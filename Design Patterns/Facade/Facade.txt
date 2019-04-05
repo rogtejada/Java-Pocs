@@ -1,0 +1,3 @@
+É criada uma classe "fachada" que esconde o sistema complexo que existe por trás.
+Dessa maneira apenas a fachada fica visível para o cliente e quando este faz uma solicitação, a classe sabe para quem repassar o request.
+Pode ser utilizado para dividir o sistema em camadas onde a classe Facade é o ponto de entrada
