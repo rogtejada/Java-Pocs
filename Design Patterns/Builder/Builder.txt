@@ -1,0 +1,3 @@
+Cria um padrao de construção de objetos complexos, para que o mesmo processo de contrução possa criar diferentes representações
+O "diretor" chama o "construtor" que cria partes de um objeto complexo a cada vez que é chamado.
+Dessa maneira é possível controlar o processo de criação passo a passo com o "diretor".
